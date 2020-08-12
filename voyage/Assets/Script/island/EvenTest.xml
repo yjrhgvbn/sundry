@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by 123 (456) -->
+<Forest>
+	<Event ID="1" Rate="0.5" Text="Text">
+		<Choice ID="1" Text="主动探索声音的来源">
+			<Result ID="1" Acquire="Bowl:-1;Medicine:-2" Rate="0.2">队员被不知名生物所伤</Result>
+			<Result ID="2" Acquire="Medicine:-2" Rate="0.2">你们找了很久都没收获，船员都很疲惫</Result>
+			<Result ID="3" Rate="0.2">战斗</Result>
+			<Result ID="4" Rate="0.2">一只野兽看见你们迅速消失在了阴影中,你虽然有所顾虑但依旧让船员休息了</Result>
+			<Result ID="5" Rate="0.2">船员发现这只是一只鸟而已，你让队员回去休息了</Result>
+		</Choice>
+		<Choice ID="2" Text="原地等待">
+			<Result ID="1" Acquire="Bowl:-1;Medicine:-2" Rate="0.25">你等了很久都没动静，船员都很疲惫</Result>
+			<Result ID="2" Rate="0.25">一只野兽袭击了你们</Result>
+			<Result ID="3" Rate="0.25">你发现只是一只野鸡而已，你让船员回去休息了</Result>
+			<Result ID="4" Acquire="Medicine:-2" Rate="0.25">似乎不止一只野兽在附件徘徊，你忐忑的守了一晚</Result>
+		</Choice>
+	</Event>
+	<Event ID="1" Rate="0.5" Text="扎营休息时你似乎听到了什么声音">
+		<Choice ID="1" Text="主动探索声音的来源">
+			<Result ID="1" Acquire="Bowl:-1;Medicine:-2" Rate="0.2">队员被不知名生物所伤</Result>
+			<Result ID="2" Acquire="Medicine:-2" Rate="0.2">你们找了很久都没收获，船员都很疲惫</Result>
+			<Result ID="3" Rate="0.2">战斗</Result>
+			<Result ID="4" Rate="0.2">一只野兽看见你们迅速消失在了阴影中,你虽然有所顾虑但依旧让船员休息了</Result>
+			<Result ID="5" Rate="0.2">船员发现这只是一只鸟而已，你让队员回去休息了</Result>
+		</Choice>
+		<Choice ID="2" Text="原地等待">
+			<Result ID="1" Acquire="Bowl:-1;Medicine:-2" Rate="0.25">你等了很久都没动静，船员都很疲惫</Result>
+			<Result ID="2" Rate="0.25">一只野兽袭击了你们</Result>
+			<Result ID="3" Rate="0.25">你发现只是一只野鸡而已，你让船员回去休息了</Result>
+			<Result ID="4" Acquire="Medicine:-2" Rate="0.25">似乎不止一只野兽在附件徘徊，你忐忑的守了一晚</Result>
+		</Choice>
+	</Event>
+</Forest>

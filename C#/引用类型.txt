@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace lesson01
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //object,dtring,dynamic
+            object o = new object();
+            object o2 = new object();
+            Console.WriteLine(o.GetType());
+            Console.WriteLine(o.ToString());
+            string at = "my name";               //长度固定的
+            Console.WriteLine(at.Contains("my"));
+            Console.WriteLine(at.Length);
+            Console.WriteLine(at.IndexOf("na"));
+
+            StringBuilder builder = new StringBuilder();
+            builder.Append("my");
+            builder.Append(" nmae");
+            builder.AppendFormat("hello{0} {1}", "my name","is");//{}
+            Console.WriteLine(builder);
+            Console.ReadLine();
+        }
+    }
+}

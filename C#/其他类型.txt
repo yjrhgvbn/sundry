@@ -1,0 +1,35 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace lesson01
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Hashtable ht = new Hashtable();
+            ht.Add(1, "jike");
+            ht.Add("second", "xueyuan");
+            Console.WriteLine(ht[1]);
+
+            Dictionary<string, string> d = new Dictionary<string, string>();
+            d.Add("first", "wu");
+            d.Add("second", "jinpeng");
+            Console.WriteLine(d["first"]);
+
+            SortedList<int, int> s1 = new SortedList<int, int>();
+            s1.Add(5, 105);
+            s1.Add(2, 102);
+            s1.Add(10, 99);
+            foreach (var i in s1)
+            {
+                Console.WriteLine("{0} {1} {2}", i, i.Key, i.Value);
+            }
+            Console.ReadLine();
+        }
+    }
+}

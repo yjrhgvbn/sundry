@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class lesson : MonoBehaviour {
+
+    public GameObject obj;
+    // Use this for initialization
+    void Start () {
+        //gameObject.SetActive(false);//游戏物体的开关
+
+        Debug.Log("Active Self : " + obj.activeSelf.ToString());
+        Debug.Log("Active Herachy : " + obj.activeInHierarchy.ToString());
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	}
+}

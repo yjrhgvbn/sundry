@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class lesson : MonoBehaviour {
+
+    public GameObject otherObject;
+    public test testScript;
+
+    // Use this for initialization
+    void Start () {
+        // otherObject = GameObject.Find("Cube");//寻找最后一个名字的物体；
+        otherObject = GameObject.FindGameObjectWithTag("cubes");//现在tag为cubes的所有物体
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+}

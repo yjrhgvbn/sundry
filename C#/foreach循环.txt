@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace lesson01
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<int> intList = new List<int>() { 1, 2, 3 };
+            foreach (var i in intList)
+            {
+                Console.WriteLine("{0}:{1}",i,i);
+            }
+            Console.ReadLine();
+        }
+    }
+}

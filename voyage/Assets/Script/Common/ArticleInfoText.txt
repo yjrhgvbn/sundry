@@ -1,0 +1,7 @@
+物品名         ID     类型   价格  数量  图标名   描述 
+Bowl;          10000; Goods;  3;   0;   bowl;    没什么用的木碗
+Bread;         10001; Goods;  4;   0;    bread;   其实蛮好吃的
+inferior Herb; 10002; Goods;  1;   0;   herb_01; 下级的药草，没什么价值
+Normal Herb;   10003; Goods;  3;   0;   herb_02; 普通的药草，市面上较为常见
+Superior Herb; 10004; Goods;  5;   0;   herb_03; 较高级的药草，能买到不错的价格
+Top Herb;      10005; Goods;  10;  0;   herb_04; 最高级的药草，较为珍贵

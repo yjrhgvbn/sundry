@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class lesson : MonoBehaviour {
+    //OnEnable()是物体脚本为激活或可用
+    //Ondisable()是物体脚本不可用或非激活
+    //OnDestory()是物体脚本将被销毁
+
+    public Material mat;
+    private Color init_color;
+
+    void Start () {
+        init_color = mat.color;
+        mat.color = new Color(255, 255, 255);
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	}
+
+   void OnDisable(){
+        mat.color = init_color;
+    }
+}
